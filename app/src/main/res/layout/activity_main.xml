@@ -11,8 +11,9 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:background="#FFEB3B"
+        android:onClick="enter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        />
+        tools:ignore="OnClick" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
